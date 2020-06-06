@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="326eb473-bad7-4dda-badb-022c669af1c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_actual_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_actual_data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_forecast_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_forecast_data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_load_area_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_load_area_data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/actual_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/actual_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/actual_data.npz" beforeDir="false" afterPath="$PROJECT_DIR$/data/actual_data.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_load_area.npz" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_load_area.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/forecast_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/forecast_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/forecast_data.npz" beforeDir="false" afterPath="$PROJECT_DIR$/data/forecast_data.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/creat_file_raw_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/creat_file_raw_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/[loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/[loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/[result_predict]series_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/[result_predict]series_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/[val_loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/[val_loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/att-res-seq2seq_metrics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/att-res-seq2seq_metrics.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/best_model.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/best_model.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/binary_matrix_and_pd.npz" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/binary_matrix_and_pd.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/decoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/decoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/encoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/encoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/gt.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/gt.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/pd.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/pd.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/training_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.5/training_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/[loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/[loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/[result_predict]series_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/[result_predict]series_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/[val_loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/[val_loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/att-res-seq2seq_metrics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/att-res-seq2seq_metrics.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/best_model.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/best_model.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/binary_matrix_and_pd.npz" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/binary_matrix_and_pd.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/decoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/decoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/encoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/encoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/gt.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/gt.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/pd.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/pd.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/training_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_0.8/training_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/[loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/[loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/[result_predict]series_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/[result_predict]series_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/[val_loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/[val_loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/att-res-seq2seq_metrics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/att-res-seq2seq_metrics.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/best_model.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/best_model.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/binary_matrix_and_pd.npz" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/binary_matrix_and_pd.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/decoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/decoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/encoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/encoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/gt.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/gt.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/pd.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/pd.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/training_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/actual_data/None_24_1_100-100-100_200_1/training_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/[loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/[loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/[result_predict]series_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/[result_predict]series_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/[val_loss]att-res-seq2seq.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/[val_loss]att-res-seq2seq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/att-res-seq2seq_metrics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/att-res-seq2seq_metrics.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/best_model.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/best_model.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/binary_matrix_and_pd.npz" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/binary_matrix_and_pd.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/decoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/decoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/encoder.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/encoder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/gt.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/gt.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/pd.npy" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/pd.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/training_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/log/att-res-seq2seq/forecast_data/None_24_1_100-100-100_200_1/training_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/att_res_seq2seq_supervisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/att_res_seq2seq_supervisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/residual_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/residual_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements_gpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements_gpu.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ckG0YXFYe9hBy2Sw24pjKD61lR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="creat_file_raw_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="attention-residual-seq2seq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/creat_file_raw_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="attention-residual-seq2seq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="residual_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="attention-residual-seq2seq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/residual_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="attention-residual-seq2seq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.creat_file_raw_dataset" />
+        <item itemvalue="Python.residual_lstm" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="326eb473-bad7-4dda-badb-022c669af1c4" name="Default Changelist" comment="" />
+      <created>1591064954350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591064954350</updated>
+      <workItem from="1591064957903" duration="4057000" />
+      <workItem from="1591069612399" duration="2610000" />
+      <workItem from="1591089682322" duration="3415000" />
+      <workItem from="1591105754748" duration="5797000" />
+      <workItem from="1591172784720" duration="1349000" />
+      <workItem from="1591174780390" duration="63000" />
+      <workItem from="1591174924885" duration="355000" />
+      <workItem from="1591175330826" duration="1384000" />
+      <workItem from="1591291800816" duration="29000" />
+      <workItem from="1591341211882" duration="666000" />
+      <workItem from="1591366648332" duration="22829000" />
+      <workItem from="1591450326024" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1504" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591175194204">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1504" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591175194204" />
+    <state x="1702" y="177" width="646" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591411700395">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1702" y="177" width="646" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591411700395" />
+    <state x="388" y="198" width="730" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591409667173" />
+    <state x="388" y="198" width="773" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1591089870425" />
+    <state x="1708" y="0" width="666" height="768" key="#main" timestamp="1591175228657">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1708" y="0" width="666" height="768" key="#main/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591175228657" />
+    <state x="2267" y="120" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591425944155">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="2267" y="120" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591425944155" />
+    <state x="928" y="143" width="374" height="482" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591174844392" />
+    <state x="928" y="143" width="374" height="466" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1591341872451" />
+    <state x="1829" y="143" width="424" height="482" key="FileChooserDialogImpl/67.27.2659.741@67.27.2659.741" timestamp="1591174137161" />
+    <state width="1314" height="145" key="GridCell.Tab.0.bottom" timestamp="1591431877776">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="145" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591431877776" />
+    <state width="1253" height="138" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591374834944" />
+    <state width="1253" height="138" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591341878458" />
+    <state width="1253" height="139" key="GridCell.Tab.0.bottom/67.27.2323.741@67.27.2323.741" timestamp="1591113262923" />
+    <state width="1314" height="146" key="GridCell.Tab.0.bottom/67.27.2659.741@67.27.2659.741" timestamp="1591174138651" />
+    <state width="1314" height="145" key="GridCell.Tab.0.center" timestamp="1591431877776">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="145" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591431877776" />
+    <state width="1253" height="138" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591374834944" />
+    <state width="1253" height="138" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1591341878457" />
+    <state width="1253" height="139" key="GridCell.Tab.0.center/67.27.2323.741@67.27.2323.741" timestamp="1591113262922" />
+    <state width="1314" height="146" key="GridCell.Tab.0.center/67.27.2659.741@67.27.2659.741" timestamp="1591174138650" />
+    <state width="1314" height="145" key="GridCell.Tab.0.left" timestamp="1591431877776">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="145" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591431877776" />
+    <state width="1253" height="138" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591374834944" />
+    <state width="1253" height="138" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1591341878455" />
+    <state width="1253" height="139" key="GridCell.Tab.0.left/67.27.2323.741@67.27.2323.741" timestamp="1591113262921" />
+    <state width="1314" height="146" key="GridCell.Tab.0.left/67.27.2659.741@67.27.2659.741" timestamp="1591174138650" />
+    <state width="1314" height="145" key="GridCell.Tab.0.right" timestamp="1591431877776">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="145" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591431877776" />
+    <state width="1253" height="138" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591374834944" />
+    <state width="1253" height="138" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1591341878457" />
+    <state width="1253" height="139" key="GridCell.Tab.0.right/67.27.2323.741@67.27.2323.741" timestamp="1591113262922" />
+    <state width="1314" height="146" key="GridCell.Tab.0.right/67.27.2659.741@67.27.2659.741" timestamp="1591174138651" />
+    <state width="1253" height="73" key="GridCell.Tab.1.bottom" timestamp="1591069026537">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="73" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591069026537" />
+    <state width="1253" height="73" key="GridCell.Tab.1.center" timestamp="1591069026535">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="73" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1591069026535" />
+    <state width="1253" height="73" key="GridCell.Tab.1.left" timestamp="1591069026535">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="73" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1591069026535" />
+    <state width="1253" height="73" key="GridCell.Tab.1.right" timestamp="1591069026536">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="73" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1591069026536" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1591368646171">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="1504" y="0" width="1024" height="768" key="SettingsEditor/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591175386637" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591368646171" />
+    <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1591067196026" />
+    <state x="214" y="311" width="447" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591091643089">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="214" y="311" width="447" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741@67.27.1299.741" timestamp="1591091643089" />
+    <state x="1466" y="98" width="1160" height="570" key="dock-window-1" timestamp="1591431936407">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1466" y="98" width="1160" height="570" key="dock-window-1/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591431936407" />
+    <state x="406" y="135" width="619" height="522" key="find.popup" timestamp="1591374474735">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="406" y="135" width="619" height="522" key="find.popup/67.27.1299.741/1366.0.1360.768@67.27.1299.741" timestamp="1591374474735" />
+    <state x="406" y="135" width="619" height="522" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1591070192717" />
+    <state x="1710" y="168" key="run.anything.popup" timestamp="1591426897882">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1710" y="168" key="run.anything.popup/67.27.1299.741/1366.0.1360.768@1366.0.1360.768" timestamp="1591426897882" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/att_res_seq2seq_supervisor.py</url>
+          <line>356</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/att_res_seq2seq_supervisor.py</url>
+          <line>359</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/attention_residual_seq2seq$residual_lstm.coverage" NAME="residual_lstm Coverage Results" MODIFIED="1591110813579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/attention_residual_seq2seq$main.coverage" NAME="main Coverage Results" MODIFIED="1591428126485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attention_residual_seq2seq$test.coverage" NAME="test Coverage Results" MODIFIED="1591066554530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attention_residual_seq2seq$creat_file_raw_dataset.coverage" NAME="creat_file_raw_dataset Coverage Results" MODIFIED="1591370207376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+  </component>
+</project>
